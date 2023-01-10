@@ -24,6 +24,46 @@ After you have the project started navigate to http://localhost:3000 and verify 
 The site is served from the `./public` folder.
 
 
+## Useful commands 
+
+During the usability test you will be required to copy some files here are some snippets to help you along the way.
+
+### Copy the css
+
+macOS / Linux
+```bash
+cp node_modules/@moduk/frontend/dist/css/index.css public/
+```
+
+Windows (command prompt)
+```cmd
+copy node_modules\@moduk\frontend\dist\css\index.css public\
+```
+
+### Copy the images
+
+macOS / Linux
+```bash
+cp -R node_modules/@moduk/frontend/dist/assets/images public/assets
+```
+
+Windows (command prompt)
+```cmd
+copy node_modules\@moduk\frontend\dist\assets\images public\assets
+```
+
+### Copy the JavaScript
+
+macOS / Linux
+```bash
+cp node_modules/@moduk/frontend/dist/client/moduk-frontend.umd.js public/
+```
+
+Windows (command prompt)
+```cmd
+copy node_modules\@moduk\frontend\dist\client\moduk-frontend.umd.js public\
+```
+
 ## Accordion Component
 
 ```html
