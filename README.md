@@ -4,7 +4,7 @@ This skeleton project is for the use of MOD.UK Frontend usability participants.
 
 ## Getting started
 
- ```bash
+```bash
 # clone Repo
 git clone [url]
 
