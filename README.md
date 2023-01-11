@@ -6,7 +6,7 @@ This skeleton project is for the use of MOD.UK Frontend usability participants.
 
 ```bash
 # clone Repo
-git clone [url]
+git clone https://github.com/adamledwards/mod-frontend-usability-skeleton.git
 
 # change directory to the clone repo
 cd mod-frontend-usability-skeleton
