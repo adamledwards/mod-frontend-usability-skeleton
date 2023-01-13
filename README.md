@@ -24,11 +24,16 @@ After you have the project started navigate to http://localhost:3000 and verify 
 The site is served from the `./public` folder.
 
 
-## Useful commands 
+## Useful commands
 
 During the usability test you will be required to copy some files here are some snippets to help you along the way.
 
-### Copy the css
+### Load the css
+
+Add your css file to the document
+```html
+<link rel="stylesheet" href="/index.css">
+```
 
 macOS / Linux
 ```bash
@@ -62,6 +67,20 @@ cp node_modules/@moduk/frontend/dist/client/moduk-frontend.umd.js public/
 Windows (command prompt)
 ```cmd
 copy node_modules\@moduk\frontend\dist\client\moduk-frontend.umd.js public\
+```
+
+Insert the script js detection script
+```html
+  <script>
+    document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
+  </script>
+```
+Load the moduk-frontend script
+```html
+<script src="moduk-frontend.umd.js"></script>
+  <script>
+    window.MODUK.initAll()
+  </script>
 ```
 
 ## Accordion Component
