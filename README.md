@@ -77,7 +77,7 @@ Insert the script js detection script
 ```
 Load the moduk-frontend script
 ```html
-<script src="moduk-frontend.umd.js"></script>
+<script src="/moduk-frontend.umd.js"></script>
   <script>
     window.MODUK.initAll()
   </script>
