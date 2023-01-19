@@ -75,6 +75,7 @@ Insert the script js detection script
     document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
   </script>
 ```
+
 Load the moduk-frontend script
 ```html
 <script src="/moduk-frontend.umd.js"></script>
